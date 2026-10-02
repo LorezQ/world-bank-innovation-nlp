@@ -1,0 +1,38 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Original World Bank reproducibility package
+# Reproduced locally but not redistributed in this extension repository
+baseline-reproduction/
+
+# Working validation files
+validation_review.xlsx
+validation_review_ai_preannotated_human.xlsx
+validation_sample_master.xlsx
+validation_sample_unblinded.xlsx
+
+# Generated model artifacts
+artifacts/validation_embeddings.npy
+artifacts/validation_embedding_metadata.csv
+artifacts/qualitative_error_cases.xlsx
+
+# Temporary/editor files
+.vscode/
+.ipynb_checkpoints/
+
+# Intermediate generated analysis artifacts
+artifacts/
+
+# Exploratory/support scripts not required for public reproduction
+scripts/create_cv_folds.py
+scripts/inspect_chunking.py
+scripts/error_analysis_by_tier.py
+scripts/create_qualitative_cases.py
+
+# Duplicate figure formats not needed in public repository
+figures/*.pdf
