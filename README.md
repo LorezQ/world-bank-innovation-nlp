@@ -8,6 +8,8 @@ The original study applies large-scale text analytics and generative-AI methods 
 
 > **Can semantic text representations complement keyword-based classification by identifying innovation that is expressed through meaning rather than explicit innovation terminology?**
 
+**Key finding.** The semantic classifier identified substantially more human-adjudicated innovation cases than the keyword baseline, increasing design-weighted recall from **0.370 to 0.643**, while precision decreased from **0.745 to 0.547**. Its F1 point estimate increased from **0.495 to 0.591**, although the bootstrap interval for the F1 difference included zero, indicating a precision–recall trade-off rather than clear overall superiority.
+
 The analysis follows four steps:
 
 1. reproduce the published innovation classification;
